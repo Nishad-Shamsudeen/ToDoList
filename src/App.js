@@ -46,11 +46,7 @@ function App() {
         </div>
       </div>   )
    } ) }
-   {toDo.map((object)=>{
-   if(object.status){
-    return (<h1>{object.text}</h1>)
-   }
-  })}
+   
     </div>
   );
 }
