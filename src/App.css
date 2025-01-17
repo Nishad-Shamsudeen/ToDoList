@@ -5,7 +5,9 @@
 
 body {
   background-color: #9c9c9a;
-  background-image: linear-gradient(#0f0f0f, #f7f7f7);
+  background-image: linear-gradient(#36e5d5a1,rgb(50 44 44) );
+  height: 100vh;
+  
 }
 
 .app {
@@ -15,13 +17,10 @@ body {
   transform: translate(-50%, -10%);
 }
 
-.app .mainHeading h1 {
+.app .mainHeading h1,.subHeading h2 {
   text-align: center;
-}
-
-.app h1,
-h2 {
   color: white;
+  
 }
 
 .app .input {
